@@ -314,8 +314,8 @@ theme.loadEditor = function()
 		editor.WinSeparator = { fg = co.dark_bg_1 }
 		editor.VertSplit = { fg = co.dark_bg_1 }
 	else
-		editor.WinSeparator = { fg = co.bg }
-		editor.VertSplit = { fg = co.bg }
+		editor.WinSeparator = { fg = co.dark_bg_1 }
+		editor.VertSplit = { fg = co.dark_bg_1 }
 	end
 
 	return editor
