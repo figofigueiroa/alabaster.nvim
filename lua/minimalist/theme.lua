@@ -111,8 +111,8 @@ theme.loadSyntax = function()
 		vimGroup = { fg = co.fg },
 
 		-- Lua
-		luaFunction = { fg = co.standout },
-		luaStatement = { fg = co.standout }, -- TODO Override `Statement`. R'syntax is wrong?
+		luaFunction = { fg = co.standout, style = "bold" },
+		luaStatement = { fg = co.standout, style = "bold" }, -- TODO Override `Statement`. R'syntax is wrong?
 		luaTable = { fg = co.bg_1 },
 		luaKeywordEnd = { fg = co.bg_1 },
 
